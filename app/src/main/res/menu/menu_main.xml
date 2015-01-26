@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:id="@+id/ab_main">
+
+        <item android:id="@+id/action_settings"
+            android:title="@string/action_settings"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/menu_action_icon1"
+            android:title="Action Navigation"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/menu_action_icon2"
+            android:title="Action Navigation"
+            android:icon="@drawable/ic_launcher"
+            android:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/menu_icon_test"
+            android:title="Icon Test"
+            android:icon="@drawable/ic_launcher"/>
+
+        <item android:id="@+id/menu_invoke_listnav"
+            android:title="List Navigation"
+            />
+
+        <item android:id="@+id/menu_invoke_standardnav"
+            android:title="Standard Navigation"
+            />
+
+        <item android:id="@+id/menu_invoke_tabnav"
+            android:title="Tab Navigation"
+            />
+
+        <item android:id="@+id/menu_da_clear"
+            android:title="Back" />
+
+    </group>
+
+</menu>
